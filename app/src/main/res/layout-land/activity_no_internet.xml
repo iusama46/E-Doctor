@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoInternet">
+
+    <RelativeLayout
+        android:id="@+id/nointernetlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/nointernetlogo"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nointernet" />
+
+        <TextView
+            android:id="@+id/nointernettxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nointernetlogo"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/adamina"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/nointernettxt"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnretry"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nointernettxt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/btn_round"
+            android:text="@string/btnretry"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

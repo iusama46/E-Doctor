@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eHausbesuch</string>
+    <string name="logotv">Dr. med. Christian Gersch</string>
+    <string name="logotv2">Privatärztliche Praxis</string>
+    <string name="ForgetPassword"><a href="#">Passwortvergessen?</a></string>
+    <string name="title_activity_login">Einloggen</string>
+    <string name="prompt_email">Patientennummer</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in">Einloggen</string>
+    <string name="action_sign_in_short">Einloggen</string>
+    <string name="register">Registrieren</string>
+    <string name="forgetpassword">Kontaktieren Sie bitte</string>
+    <string name="forgetpassword2">office@drgersch.de</string>
+    <string name="forgetpassword3">um neue Anmeldedaten anzufordern.</string>
+    <string name="cbsavepass">Passwort speichern</string>
+    <string name="msgtv">Nachrichten</string>
+    <string name="metv">Mich</string>
+    <string name="appointtv">Termine</string>
+    <string name="settingtv">Einstellungen</string>
+    <string name="okbtn">OK</string>
+    <string name="Registerbtn">OK</string>
+    <string name="R1">Sie können sich nicht alleine registrieren. Bitte vereinbaren Sie einen Termin mit der Praxis, um Anmeldedaten zu erhalten.</string>
+    <string name="nointernettxt">Kein Internetzugang. Aus Sicherheitsgründen speichert diese App keine Daten auf Ihrem Telefon. Daher ist für die Verwendung immer ein Internetzugang erforderlich</string>
+    <string name="btnretry">Wiederholen</string>
+    <string name="logout">Ausloggen</string>
+</resources>

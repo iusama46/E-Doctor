@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">e home visit</string>
+    <string name="logotv">Dr. med. Christian Gersch</string>
+    <string name="logotv2">Private Practice at Kaiserslautern/Germany</string>
+    <string name="ForgetPassword"><a href="#">forgetpassword?</a></string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Patient number</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="register">Register</string>
+    <string name="forgetpassword">Please contact</string>
+    <string name="forgetpassword2">office@drgersch.de</string>
+    <string name="forgetpassword3">to request new login data.</string>
+    <string name="cbsavepass">save password</string>
+    <string name="msgtv">Messaging</string>
+    <string name="metv"> Me</string>
+    <string name="appointtv">Appointments</string>
+    <string name="settingtv">Settings</string>
+    <string name="okbtn">OK</string>
+    <string name="Registerbtn">OK</string>
+    <string name="R1">You cannot register on your own. Please schedule an appointment with the practice to receive login data.</string>
+    <string name="nointernettxt">No internet access. For security reasons, this app stores no data on your phone, therefore, internet access is always required to use it</string>
+    <string name="btnretry">Retry</string>
+    <string name="logout">Log Out</string>
+
+</resources>
